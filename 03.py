@@ -20,9 +20,7 @@ while True:
     letra = input('\nDigite uma letra: ')
     if letra == letra.lower():
         letra = letra.upper()
-        for c in palavra_secreta:
-            if c == 'Ç' and letra == 'C':
-                print('Troque C por Ç')
+     
 
     if len(letra) > 1:
         print('Você só pode digitar uma letra!!!')
